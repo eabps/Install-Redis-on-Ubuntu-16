@@ -13,12 +13,12 @@ $ sudo apt-get install build-essential tcl
 ```sh
 $ sudo apt-get install redis-server
 ```
-## Config Redis: ##
+## Config Redis ##
 ```sh
 $ sudo nano /etc/redis/redis.conf
 ```
 
-## Start Redis: ##
+## Start Redis ##
 After install, reboot computer for redis start with OS.
 ```sh
 $ service redis-server status
@@ -27,7 +27,7 @@ OR
 ```sh
 $ sudo systemctl status redis
 ```
-Check if Redis is working
+## Check if Redis is working ##
 ```sh
 $ redis-cli ping
 ```
